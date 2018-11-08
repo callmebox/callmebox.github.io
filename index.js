@@ -1,4 +1,6 @@
-import kb from 'kb';
-exports.printMsg = function(){
-    console.log("A test message from kissbox");
-}
+var app = new Vue({
+    el: '#app',
+    data: {
+      message: 'Hello Vue!'
+    }
+  })
